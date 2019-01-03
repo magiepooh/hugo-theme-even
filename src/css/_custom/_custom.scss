@@ -3,8 +3,22 @@
 // ==============================
 // You can override the variables in _variables.scss to customize the style
 
+// ==============================
+// font
+// ==============================
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500');
+
 // Font family of the logo.
-$logo-font-family: LiSu, sans-serif !default;
+$logo-font-family: 'Noto Sans JP', LiSu, sans-serif;
 
 // Serif font family of the site.
-$global-serif-font-family: Athelas, Microsoft Yahei, serif !default;
+$global-serif-font-family: 'Noto Sans JP', Microsoft Yahei, serif;
+
+$global-font-family: 'Noto Sans JP', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+
+$code-font-family: 'Noto Sans JP', Consolas, Monaco, Menlo, Consolas, monospace;
+
+// ==============================
+// size
+// ==============================
+$logo-font-size: 40px;
